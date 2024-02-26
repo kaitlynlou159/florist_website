@@ -124,17 +124,37 @@ h1{
     color: blueviolet;
 }
 #border1{
-    /* display: flex;
-    align-items: flex-start;
+    display: flex;
+    /* align-items: flex-start; */
     justify-content: space-between;
-    justify-content: space-around; */
-    border: black 2px solid;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: black 2px solid; */
     /* justify-content: flex-start; */
     word-wrap: break-word;
     text-overflow: clip;
     margin: 30px; 
-    margin-right: 950px;
+    /* margin-right: 950px; */
 }
+.contactinformation{
+    border: 2px black solid;
+    padding: 1%;
+}
+.opentimes{
+    border: black 2px solid;
+    padding: 2%;
+}
+.masterclasses{
+    border: 2px black solid;
+    padding: 2%;
+    margin-left: 450px;
+    margin-right: 450px;
+
+}
+
+
 #footer{
     background-color: #EAECC1;
     height: 30px;
